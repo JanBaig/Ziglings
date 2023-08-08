@@ -1,6 +1,6 @@
 # Ziglings
 
-Here are my solutions to Ziglings! This project contains a series of tiny
+Here are my solutions to Ziglings project! This project contains a series of tiny
 broken programs (and one nasty surprise).  By fixing them, you'll
 learn how to read and write [Zig](https://ziglang.org/) code.
 
