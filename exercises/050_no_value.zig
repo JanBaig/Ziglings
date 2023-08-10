@@ -65,6 +65,7 @@ const std = @import("std");
 const Err = error{Cthulhu};
 
 pub fn main() void {
+
     var first_line1: *const [16]u8 = undefined;
     first_line1 = "That is not dead";
 
@@ -79,7 +80,6 @@ pub fn main() void {
 
 fn printSecondLine() void {
     var second_line2: ?*const [18]u8 = undefined;
-    second_line2 = "even death may die";
-
+    second_line2 = "even death may die"; 
     std.debug.print("And with strange aeons {s}.\n", .{second_line2.?});
 }
